@@ -7,7 +7,7 @@ use cortex_m_semihosting::{debug, hprintln};
 
 #[entry]
 fn main() -> ! {
-    hprintln!("Hello World!");
+    hprintln!("Hello World!!!");
     debug::exit(debug::EXIT_SUCCESS);
     loop {}
 }
